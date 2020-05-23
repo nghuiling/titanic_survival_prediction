@@ -9,13 +9,15 @@ An application to predict who survived in Titanic.
   <li>Class</li>
   <li>Port of Embarkation</li>
   <li>Age x Class</li>
-</ul>
+</ul><br>
 
-<b> Model: </b>
-Random Forest Classifier
-Training Accuracy: 82.5%
-Cross-Validation Accuracy: 82.0%
-Actual Accuracy: 78.5%
+<b> Model: </b> Random Forest Classifier
+<ul>
+  <li>Training Accuracy: 82.5%</li>
+  <li>Cross-Validation Accuracy: 82.0%</li>
+  <li>Actual Accuracy: 78.5%</li>
+</ul><br>
+
 
 Demo: <a href='https://huiling-titanic.herokuapp.com/'>https://huiling-titanic.herokuapp.com/</a>
 
