@@ -1,6 +1,6 @@
 # Predicting Survival in Titanic
 
-An application to predict who survived in Titanic.<br>
+A simple Flask application to predict who survived in Titanic.<br>
 
 <b> Features: </b>
 <ul>
