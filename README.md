@@ -1,6 +1,6 @@
 # Predicting Survival in Titanic
 
-An application to predict who survived in Titanic.
+An application to predict who survived in Titanic.<br>
 
 <b> Features: </b>
 <ul>
@@ -15,7 +15,7 @@ An application to predict who survived in Titanic.
 <ul>
   <li>Training Accuracy: 82.5%</li>
   <li>Cross-Validation Accuracy: 82.0%</li>
-  <li>Actual Accuracy: 78.5%</li>
+  <li>Testing Accuracy: 78.5%</li>
 </ul><br>
 
 
