@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*button*/
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	background-color:#ff5bb0;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	background-color:#ef027d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*form*/
+
+
+.form-style-3 label{
+	display:block;
+	margin-bottom: 10px;
+}
+
+
+.form-style-3 fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #9e707d;
+	padding: 20px;
+	background: transparent;
+
+}
+
+.form-style-3 textarea{
+	width:100px;
+	height:100px;
+}
+
+.form-style-3 select, 
+.form-style-3 textarea{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #9e707d;
+	outline: none;
+	color: #9e707d;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+	background: #FFEFF6;
+	width:40%;
+}
+
+
+
+
+
+html {width: 100%; min-height: 100%; overflow:auto; overflow-x:hidden; }
+
+
+
+body { 
+
+	width: 100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(to right, #F1DEDE, #d496a7);
+	color: #9e707d;
+	font-size: 18px;
+	text-align:center;
+	letter-spacing:1px;
+
+}
+
+
+fieldset {
+    display: inline-block;
+
+}

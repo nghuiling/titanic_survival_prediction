@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Who will survive?</title>
+
+	
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+<body><br>
+	<h1>Predicting Survival in Titanic</h1><br>
+
+	<!--  Main Input For receiving Query to our ML -->
+
+<div class="form-style-3">
+	<form action="{{ url_for('predict')}}"method="post">
+
+		<fieldset style="width:50%">
+			<legend>Select Data</legend>
+			<p>
+				<label>Age</label>
+				<select name = "Age" id = "myList">
+<!-- 					<option value="" selected disabled hidden>Choose here</option> -->
+					<option value = "0"><= 16</option>
+					<option value = "1">17-32</option>
+					<option value = "2">33-48</option>
+					<option value = "3">49-64</option>
+					<option value = "4">>= 65</option>
+				</select>
+			</p>
+			<p>
+				<label>Sex</label>
+				<select name = "Sex" id = "myList">
+<!-- 					<option value="" selected disabled hidden>Choose here</option> -->
+					<option value = "0">Male</option>
+					<option value = "1">Female</option>
+				</select>
+			</p>
+
+			<p>
+				<label>Class</label>
+				<select name = "Class" id = "myList">
+<!-- 					<option value="" selected disabled hidden>Choose here</option> -->
+					<option value = "1">First Class</option>
+					<option value = "2">Second Class</option>
+					<option value = "3">Third Class</option>
+				</select>
+			</p>
+
+
+			<p>
+				<label>Port of Embarkation</label>
+				<select name = "Embarked" id = "myList">
+<!-- 					<option value="" selected disabled hidden>Choose here</option> -->
+					<option value = "1">Cherbourg</option>
+					<option value = "2">Queenstown</option>
+					<option value = "0">Southampton</option>
+					
+				</select>
+			</p>
+
+
+		</fieldset>
+		<br>
+		<br>
+
+
+		<button style="width:150px" type="submit" class="myButton">Predict</button>
+	</form>
+</div>
+<br>
+<br>
+
+</body>
+</html>
+
+{{ prediction_text1}}<br><br>
+{{ prediction_text2}}
+
+
+
