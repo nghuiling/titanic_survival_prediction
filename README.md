@@ -19,6 +19,6 @@ A simple Flask application to predict who survived in Titanic.<br>
 </ul><br>
 
 
-Demo: <a href='https://huiling-titanic.herokuapp.com/'>https://huiling-titanic.herokuapp.com/</a>
+<b>Demo:</b> <a href='https://huiling-titanic.herokuapp.com/' style="width:700px;">https://huiling-titanic.herokuapp.com/</a>
 
 <img src='static/demo.jpg'>
