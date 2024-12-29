@@ -18,7 +18,7 @@ A simple Flask application to predict who survived in Titanic.<br>
   <li>Testing Accuracy: 76.7%</li>
 
 </ul>
-  <i>*Further improvement to be done in future</i>
+  <i>*Further improvement to be done in future</i><br>
 <br>
 
 
