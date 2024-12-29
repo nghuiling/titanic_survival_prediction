@@ -1,13 +1,12 @@
 from flask import Flask, render_template,request
 import pickle
 import numpy as np
-from waitress import serve
 
 
 app = Flask(__name__)
 
 
-model = pickle.load(open('finalized_model.p','rb'))
+model = pickle.load(open('finalized_model.sav','rb'))
 
 
 
@@ -56,5 +55,4 @@ def predict():
 
 
 if __name__ == '__main__':
-   # app.run(debug=True)
-   serve(app, host='0.0.0.0', port=8000)
+    app.run(debug=True)

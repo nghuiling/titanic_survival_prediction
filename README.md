@@ -11,16 +11,16 @@ A simple Flask application to predict who survived in Titanic.<br>
   <li>Age x Class</li>
 </ul><br>
 
-<b> Model: </b> Random Forest Classifier
+<b> Model: </b> Decision Tree
 <ul>
-  <li>Training Accuracy: 82.5%</li>
-  <li>Cross-Validation Accuracy: 82.0%</li>
-  <li>Testing Accuracy: 78.5%</li>
+  <li>Training Accuracy: 82.6%</li>
+  <li>Cross-Validation Accuracy: 81.2%</li>
+  <li>Testing Accuracy: 76.7%</li>
 </ul><br>
 
 
-<b>Demo:</b> <a href='https://huiling-titanic.herokuapp.com/'>https://huiling-titanic.herokuapp.com/</a>
-
 <img src="static/demo.jpg" width="600"/>
 
-<b>Created By:</b> Hui Ling
+<b>Created By:</b> Hui Ling <br>
+<b>Year Created:</b>2018
+
